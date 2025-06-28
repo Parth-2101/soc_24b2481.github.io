@@ -1,0 +1,12 @@
+import numpy as np
+a=np.zeros([3,2,2])
+print(a)
+b=np.ones([4,2,2])
+print(b)
+c=np.full([2,2],99)
+print(c)
+d=np.random.randint(4,size=(3,3))
+print(d)
+print(np.identity(3))
+e=np.array([[1,2,3]])
+print(np.repeat(e,3,axis=1))
